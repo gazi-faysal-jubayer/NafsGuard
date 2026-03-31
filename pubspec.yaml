@@ -1,0 +1,82 @@
+name: nafsguard
+description: "NafsGuard — The Digital Gatekeeper. A spiritual screen time companion."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Routing
+  go_router: ^14.8.1
+
+  # Local persistence
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.5.3
+  path_provider: ^2.1.5
+
+  # Audio
+  audioplayers: ^6.1.0
+
+  # Notifications
+  flutter_local_notifications: ^18.0.1
+
+  # Background services
+  android_alarm_manager_plus: ^4.0.6
+  flutter_background_service: ^5.1.0
+
+  # Overlay
+  flutter_overlay_window: ^0.4.5
+
+  # Permissions
+  permission_handler: ^11.4.0
+
+  # Typography
+  google_fonts: ^6.2.1
+
+  # Animations
+  flutter_animate: ^4.5.2
+  lottie: ^3.3.1
+  confetti: ^0.8.0
+
+  # Charts
+  fl_chart: ^0.70.2
+
+  # Localization
+  intl: ^0.19.0
+
+  # Models
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.9.0
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+  # Shimmer
+  shimmer: ^3.0.0
+
+  # UUID
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.14
+  freezed: ^3.0.6
+  json_serializable: ^6.9.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/
+    - assets/images/
+    - assets/lottie/
